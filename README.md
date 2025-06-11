@@ -44,7 +44,7 @@ pip install -r requirements.txt
  
 ``python train_2d.py -net sam2 -exp_name REFUGE_MedSAM2 -vis 1 -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -out_size 1024 -b 4 -val_freq 1 -dataset REFUGE -data_path ./data/REFUGE``
 
- ### 3D case - Abdominal Multiple Organs Segmentation
+ ### 3D case - Brain Hemorrhage Segmentation Dataset
  
  **Step1:** Download pre-processed [BHSD](https://github.com/White65534/BHSD?tab=readme-ov-file) dataset manually from [here](https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main), or using command lines:
 
