@@ -1,4 +1,4 @@
-# SSS
+# SSS: Semi-Supervised SAM-2 with Efficient Prompting for Medical Imaging Segmentation
 This is the code repository for the paper:
 
 > **SSS: Semi-Supervised SAM-2 with Efficient Prompting for Medical Imaging Segmentation**
@@ -29,7 +29,7 @@ conda install pip
 # install required packages
 pip install -r requirements.txt
 ```
-## 🎯 Example Cases
+## Training Cases
  #### Download ACDC or BHSD or your own dataset and put in the ``data`` folder, create the folder if it does not exist 
  
  ### 2D case - REFUGE Optic-cup Segmentation from Fundus Images
