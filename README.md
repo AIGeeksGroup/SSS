@@ -55,4 +55,4 @@ pip install -r requirements.txt
 **Step2:** Run the training and validation by:
 
 
- ``python train_3d.py -net sam2 -exp_name BHSD_SSS -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -val_freq 1 -prompt bbox -prompt_freq 2 -dataset btcv -data_path ./data/bhsd``
+ ``python train_3d.py -net sam2 -exp_name BHSD_SSS -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -val_freq 1 -prompt bbox -prompt_freq 2 -dataset bhsd -data_path ./data/bhsd``
