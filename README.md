@@ -36,13 +36,9 @@ pip install -r requirements.txt
 
 **Step1:**  Download the processed ACDC data from [BaiduDisk](https://pan.baidu.com/s/1d0cFhj3LU029oHajNni8KQ), the password is *code*, and decompress the zip file to [data/ACDC](https://github.com/Luoxd1996/SSL4MIS/edit/master/data/ACDC). More details of this dataset can be found at:  https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html.
 
- ``wget https://huggingface.co/datasets/jiayuanz3/REFUGE/resolve/main/REFUGE.zip``
-
- ``unzip REFUGE.zip``
-
  **Step2:** Run the training and validation by:
  
-``python train_2d.py -net sam2 -exp_name REFUGE_MedSAM2 -vis 1 -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -out_size 1024 -b 4 -val_freq 1 -dataset REFUGE -data_path ./data/REFUGE``
+``python train_2d.py -net sam2 -exp_name ACDC_SSS -vis 1 -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -out_size 1024 -b 4 -val_freq 1 -dataset ACDC -data_path ./data/ACDC``
 
  ### 3D case - Brain Hemorrhage Segmentation Dataset
  
@@ -59,4 +55,4 @@ pip install -r requirements.txt
 **Step2:** Run the training and validation by:
 
 
- ``python train_3d.py -net sam2 -exp_name BTCV_MedSAM2 -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -val_freq 1 -prompt bbox -prompt_freq 2 -dataset btcv -data_path ./data/btcv``
+ ``python train_3d.py -net sam2 -exp_name BHSD_SSS -sam_ckpt ./checkpoints/sam2_hiera_small.pt -sam_config sam2_hiera_s -image_size 1024 -val_freq 1 -prompt bbox -prompt_freq 2 -dataset btcv -data_path ./data/bhsd``
