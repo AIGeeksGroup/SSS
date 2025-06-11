@@ -8,4 +8,4 @@ This is the code repository for the paper:
 >*Corresponding author. †Project lead.
 >
 
-![项目相关的描述](main_pipeline.pdf)
+![项目相关的描述](image.png)
