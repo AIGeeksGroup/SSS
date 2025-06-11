@@ -34,7 +34,7 @@ pip install -r requirements.txt
  
  ### 2D case - ACDC Optic-cup Segmentation from Fundus Images
 
-**Step1:** Download pre-processed [REFUGE](https://refuge.grand-challenge.org/) dataset manually from [here](https://huggingface.co/datasets/jiayuanz3/REFUGE/tree/main), or using command lines:
+**Step1:**  Download the processed ACDC data from [BaiduDisk](https://pan.baidu.com/s/1d0cFhj3LU029oHajNni8KQ), the password is *code*, and decompress the zip file to [data/ACDC](https://github.com/Luoxd1996/SSL4MIS/edit/master/data/ACDC). More details of this dataset can be found at:  https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html.
 
  ``wget https://huggingface.co/datasets/jiayuanz3/REFUGE/resolve/main/REFUGE.zip``
 
