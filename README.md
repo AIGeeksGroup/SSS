@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Training Cases
  #### Download ACDC or BHSD or your own dataset and put in the ``data`` folder, create the folder if it does not exist 
  
- ### 2D case - REFUGE Optic-cup Segmentation from Fundus Images
+ ### 2D case - ACDC Optic-cup Segmentation from Fundus Images
 
 **Step1:** Download pre-processed [REFUGE](https://refuge.grand-challenge.org/) dataset manually from [here](https://huggingface.co/datasets/jiayuanz3/REFUGE/tree/main), or using command lines:
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
  ### 3D case - Abdominal Multiple Organs Segmentation
  
- **Step1:** Download pre-processed [BTCV](https://www.synapse.org/#!Synapse:syn3193805/wiki/217752) dataset manually from [here](https://huggingface.co/datasets/jiayuanz3/btcv/tree/main), or using command lines:
+ **Step1:** Download pre-processed [BTCV](https://www.synapse.org/#!Synapse:syn3193805/wiki/217752) dataset manually from [here]([https://huggingface.co/datasets/jiayuanz3/btcv/tree/main](https://huggingface.co/datasets/Wendy-Fly/BHSD)), or using command lines:
 
  ``wget https://huggingface.co/datasets/jiayuanz3/btcv/resolve/main/btcv.zip``
 
