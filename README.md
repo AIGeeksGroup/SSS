@@ -46,12 +46,13 @@ pip install -r requirements.txt
 
  ### 3D case - Abdominal Multiple Organs Segmentation
  
- **Step1:** Download pre-processed [BTCV](https://www.synapse.org/#!Synapse:syn3193805/wiki/217752) dataset manually from [here](https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main), or using command lines:
+ **Step1:** Download pre-processed [BHSD](https://github.com/White65534/BHSD?tab=readme-ov-file) dataset manually from [here](https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main), or using command lines:
 
- ``wget https://huggingface.co/datasets/jiayuanz3/btcv/resolve/main/btcv.zip``
-
- ``unzip btcv.zip``
-
+ ``wget https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main/label_192.zip``
+ ``wget https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main/unlabel_1980.zip``
+ ``unzip label_192.zip``
+ ``unzip unlabel_1980.zip``
+ 
 **Step2:** Run the training and validation by:
 
 
