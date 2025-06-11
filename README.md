@@ -49,8 +49,11 @@ pip install -r requirements.txt
  **Step1:** Download pre-processed [BHSD](https://github.com/White65534/BHSD?tab=readme-ov-file) dataset manually from [here](https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main), or using command lines:
 
  ``wget https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main/label_192.zip``
+ 
  ``wget https://huggingface.co/datasets/Wendy-Fly/BHSD/tree/main/unlabel_1980.zip``
+ 
  ``unzip label_192.zip``
+ 
  ``unzip unlabel_1980.zip``
  
 **Step2:** Run the training and validation by:
