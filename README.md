@@ -7,6 +7,8 @@ This is the code repository for the paper:
 >
 >*Corresponding author. †Project lead.
 >
+> ***BSPC 2026***
+> 
 
 ![项目相关的描述](pipeline.png)
 
