@@ -8,7 +8,8 @@ This is the code repository for the paper:
 >*Corresponding author. †Project lead.
 >
 > ***BSPC 2026***
-> 
+>
+> [**[Paper]**](https://arxiv.org/abs/2506.08949)
 
 ![项目相关的描述](pipeline.png)
 
