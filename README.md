@@ -1,4 +1,9 @@
 # SSS: Semi-Supervised SAM-2 with Efficient Prompting for Medical Imaging Segmentation
+
+> [!CAUTION] 
+> **Regarding the Arxiv withdrawn:** Hongjie Zhu: The authors withdraw this manuscript due to discrepancies found in the evaluation script for certain metric calculations. The paper is being retracted for thorough re-evaluation and verification (confirmed by Dr. Ying Cai).
+
+
 This is the code repository for the paper:
 
 > **SSS: Semi-Supervised SAM-2 with Efficient Prompting for Medical Imaging Segmentation**
